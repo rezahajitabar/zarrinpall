@@ -1,3 +1,7 @@
-console.log("salam");
-alert("salam");
-console.log("reza");
+const userlog=(username)=>{
+    if(username==="reza" || username==="ali"){
+        return true;
+    }else{
+        return false;
+    }
+}
